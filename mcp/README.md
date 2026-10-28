@@ -1,14 +1,11 @@
 # MCP Servers
 
-MCP server configs and notes. One file or folder per server, holding the config snippet (e.g. `.mcp.json` entry) and any setup notes.
+MCP servers from other authors that I use or have tried. All credit goes to the original authors; follow the links for source, install steps, and licenses.
 
-```
-mcp/
-  my-server/
-    README.md
-    mcp.json
-```
+| Name | Author | Link |
+| --- | --- | --- |
+| CodeGraph | [colbymchenry](https://github.com/colbymchenry) | [GitHub](https://github.com/colbymchenry/codegraph) |
 
-## Third-party
+## CodeGraph
 
-MCP servers from other authors are listed with credit in [third-party.md](third-party.md).
+By colbymchenry. A local MCP server that indexes your code into a map so the model can find snippets faster and cheaper, with less grepping.

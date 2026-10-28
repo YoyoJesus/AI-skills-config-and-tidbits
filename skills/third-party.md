@@ -15,4 +15,4 @@ By Vercel Labs. A skill that lets a model search for and install its own skills 
 
 By pors. Security audit skill for finding vulnerabilities in code so a human can fix them. Claude Code ships a stronger built-in version (`/security-review`), but it is closed source.
 
-See also: [plugins](../plugins/third-party.md), [MCP servers](../mcp/third-party.md).
+See also: [plugins](../plugins/README.md), [MCP servers](../mcp/README.md).
