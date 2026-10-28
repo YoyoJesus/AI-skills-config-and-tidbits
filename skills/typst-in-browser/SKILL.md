@@ -1,11 +1,11 @@
 ---
 name: typst-in-browser
-description: Compile Typst to PDF or SVG entirely in the browser in a SvelteKit app using typst.ts, and safely interpolate user data into generated Typst source. Use when adding PDF generation, a live Typst preview, or a Typst template driven by form input.
+description: Compile Typst to PDF or SVG entirely in the browser in a Vite-based web app (SvelteKit examples) using typst.ts, and safely interpolate user data into generated Typst source. Use when adding PDF generation, a live Typst preview, or a Typst template driven by form input.
 ---
 
 # Typst in the Browser
 
-Pattern used in ResumeSmith, CardSmith, and ProjectSmith. Compilation runs client-side, so user data never leaves the browser and no server is needed.
+Compilation runs client-side, so user data never leaves the browser and no server is needed. Examples use SvelteKit; any Vite app works the same way with its own plugin list and static assets folder.
 
 ## Setup
 

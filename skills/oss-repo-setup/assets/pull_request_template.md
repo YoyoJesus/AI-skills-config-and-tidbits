@@ -15,7 +15,7 @@
 
 ## Risk and deployment
 
-<!-- Note privacy, security, dependency-size, migration, or Vercel implications. Write "None" if not applicable. -->
+<!-- Note privacy, security, dependency-size, migration, or deployment implications. Write "None" if not applicable. -->
 
 ## Checklist
 

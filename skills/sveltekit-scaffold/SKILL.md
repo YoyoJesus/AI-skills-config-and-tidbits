@@ -63,7 +63,7 @@ static/
 
 ## 4. Agent files
 
-Create `AGENTS.md` from the chunks in this repo's `agents-md/` folder (at minimum `sveltekit-stack.md`, `commits-and-attribution.md`, `writing-style.md`, `code-style.md`, and one variant from `testing.md`), plus a short project section describing what the app does. Create `CLAUDE.md` containing only `@AGENTS.md`.
+Create `AGENTS.md` from the chunks at https://github.com/YoyoJesus/AI-skills-config-and-tidbits/tree/main/agents-md (at minimum `sveltekit-stack.md`, `commits-and-attribution.md`, `writing-style.md`, `code-style.md`, and one variant from `testing.md`), plus a short project section describing what the app does. Create `CLAUDE.md` containing only `@AGENTS.md`.
 
 ## 5. Check
 
