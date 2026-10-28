@@ -14,4 +14,6 @@ Reusable sections for `AGENTS.md` / `CLAUDE.md` files. One topic per file so the
 | [handoff-summary.md](handoff-summary.md) | End-of-work summary format |
 | [ai-disclosure.md](ai-disclosure.md) | Provider/model/harness PR footer or AI-assistance disclosure policy |
 
+Rule sets from other authors are linked with credit in [third-party.md](third-party.md).
+
 Sourced from my global `CLAUDE.md` and the AGENTS.md files in ResumeSmith, CardSmith, Dependency-Domino, holotrace, industry, and TCCYOA.
