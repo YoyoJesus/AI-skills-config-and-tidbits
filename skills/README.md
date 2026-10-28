@@ -20,3 +20,7 @@ description: When the model should use this skill, in one or two sentences.
 ```
 
 To use one, copy or symlink the folder into `~/.claude/skills/` (Claude Code) or the equivalent skills directory for your harness.
+
+## Third-party
+
+Skills, plugins, and MCPs from other authors are listed with credit in [third-party.md](third-party.md).
