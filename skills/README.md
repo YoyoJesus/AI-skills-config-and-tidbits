@@ -29,7 +29,7 @@ To use one, copy or symlink the folder into `~/.claude/skills/` (Claude Code) or
 | [verify-web-change](verify-web-change/SKILL.md) | Running a project and checking pages at desktop and phone widths | industry, brain-dump notes on verify skills |
 | [typst-in-browser](typst-in-browser/SKILL.md) | Client-side Typst to PDF/SVG with safe escaping | ResumeSmith, CardSmith, ProjectSmith |
 | [toolsmith-repo-setup](toolsmith-repo-setup/SKILL.md) | Community files, templates, and attribution/commit CI for public tool repos | ResumeSmith, CardSmith, ProjectSmith, email-signature-maker |
-| [khi-ctf-challenge](khi-ctf-challenge/SKILL.md) | Authoring Kent Hack It CTF challenges | kent-hack-it-challenges |
+| [ctf-challenge](ctf-challenge/SKILL.md) | Authoring CTF challenges with a verified solve | kent-hack-it-challenges |
 
 ## Third-party
 
