@@ -17,7 +17,7 @@ By Vercel Labs. A skill that lets a model search for and install its own skills 
 
 ## Skill Audit
 
-By pors. Security audit skill for finding vulnerabilities in code so a human can fix them. Claude Code ships a stronger built-in version (`/security-review`), but it is closed source.
+By pors. A Python CLI (not a skill itself) that security-audits agent skills before you trust them: prompt-injection patterns in descriptions, hardcoded secrets, risky shell scripts, and code issues via semgrep, with SARIF output for CI. For auditing your own code, Claude Code has a built-in `/security-review`.
 
 ## Anti-Slop UI
 
