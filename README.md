@@ -7,6 +7,8 @@ My discovered skills, workflow, agent config settings, and other bits relating t
 | Folder | Contents |
 | --- | --- |
 | [`skills/`](skills/) | Agent skills, one folder per skill with a `SKILL.md` |
+| [`plugins/`](plugins/) | Plugins bundling skills, commands, agents, hooks, or MCPs |
+| [`mcp/`](mcp/) | MCP server configs and notes |
 | [`agents-md/`](agents-md/) | Reusable chunks for `AGENTS.md` / `CLAUDE.md` files |
 | [`notes/`](notes/) | General notes and opinions on models, tools, and workflows |
 

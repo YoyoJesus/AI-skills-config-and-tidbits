@@ -23,4 +23,4 @@ To use one, copy or symlink the folder into `~/.claude/skills/` (Claude Code) or
 
 ## Third-party
 
-Skills, plugins, and MCPs from other authors are listed with credit in [third-party.md](third-party.md).
+Skills from other authors are listed with credit in [third-party.md](third-party.md).
