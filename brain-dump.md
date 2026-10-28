@@ -1,45 +1,53 @@
 # Providers
 Generally cloud-solutions will preform better than any local model*, assuming you have access to a **paid** plan with one of them:
 - Anthropic:
-	- Sonnet 5
-		- The 'defualt'
-		- Fine for chatting with, but awful at work
-		- Use 4.6/4.7 if you can
-	- Opus 5
+	- Sonnet 5.5
+		- The 'default'
+		- Fine for chatting with, can do some basic work
+        - Good sub-agent
+	- Opus 5.5
 		- Generally the best overall for programming tasks
-		- Somehow a tiny version of Fable
-		- Likes to fall into circles, wasting tokens
-		- Would prefer 4.8 if you can get it
+		- Somehow a tiny version of Fable-ish
+		- Cyber tasks generally prefer 4.8/4.7 if you can get it
 	- Fable 5/5.1
 		- Best in class
 		- Expensive as fuck
 		- Not included on the $20 plan
+    - Haiku 5.5
+      	- Better for text only tasks
+      	- Can be delegated work by any of the above
+      	- Good for AI integration into apps (like ResumeSmith)
+      	- CHEAP
 	- Anthropic models seem to use way more tokens (and therefore sub usage) than every other model option. $20 plan will work, but limits will be hit quick
 - OpenAI:
 	- Astra
 		- Best OpenAI model, and reasonably better price-to-token than Fable
 		- *IS* available at the $20 tier
 		- Handles model swarms well (though this is expensive)
-	- GPT-5.6
+	- GPT-6.1 Sol
+   		- My preferred default for coding tasks
+       	- Good cost to performance ratio
+       	- You basically don't need anything else for agentic coding
+    - GPT-6.1 Terra
+  		- Same as above, but cheaper and less intelligent
+      	- Seems like a good backup for sub-agent work
+    - GPT-6 Luna
+        - Very cheap
+        - Good API usage for apps
+        - Might be usable as a simple task sub-agent
+        - Good for chatGPT
+	- GPT-5.6 (Legacy)
 		- Three versions: `sol, terra, luna`
 			- Sol - best for programming/model orchestration
 			- Terra - honestly has no 'specific use case' that makes it better/worse than the others
 			- Luna - cheaper, still performant and strong. Better for sub-agents or API system callers
-	- GPT-5.4 (specifically nano)
-		- Nano is their cheapest model w/ reasoning
-		- Very cheap
-		- Best for API calls for specific applications
-			- I used this in my resume app, but switched to 5.6-luna for OCR
 	- As of this moment, OpenAI seems to have the best subscription model, the $20 tier is very generous, and they system to giving you resets as something you can use when you need is very nice
 	- API platform is really easy to use, and their the ones leading the endpoint design system for AI models
 - Gemini:
 	- Not very good at UI/UX
 	- Has the best research/search algorithm of any
 	- Cheap as hell
-- Meta
-	- Muse-class models are solid, but not class-leading
-	- Pricing is cheap *only* if you are willing to let Meta train on your prompts, however normal pricing is unrealistic and gets mogged by OpenAI/Anthropic
-		- ![[Pasted image 20260908110730.png]]
+  
 ## Local Models
 I have some experience with local models & harnesses. Generally the for-profit, cloud models are technically better that local models in most applications. However there are some use cases for local models that work well:
 - Basic chat model
@@ -53,6 +61,7 @@ Models I've played with:
 - gemma 4
 - qwen-3
 - glm 5.2 (heavily quantized)
+
 ### Local harnesses
 Generally Ollama or similar will run your local model, but you cannot do much with it there without passing it into a harness:
 - OpenCode
@@ -63,9 +72,9 @@ Generally Ollama or similar will run your local model, but you cannot do much wi
 	- Even though its semi-proprietary, it has been given a hacky solution to make this work
 	- Most a plug-and-play solution
 - Hermes
-	- This is more of an automatous agent harness, and requires instructions and setup to get to work
+	- This is more of an automatons agent harness, and requires instructions and setup to get to work
 - OpenClaw
-	- This is more of an automatous agent harness, and requires instructions and setup to get to work
+	- This is more of an automatons agent harness, and requires instructions and setup to get to work
 
 # Skills/Plugins/MCPs
 It is generally best to use skills when needed in your project. Models today are pretty smart and can use not only file read/write but screenshotting and mouse inputs to verify and test their solutions. You can use these to build specific skills to assist in agentic-supported development.
@@ -89,7 +98,7 @@ Plugins & MCP servers are another way to give models more power. I've played wit
 	- Local MCP run from your computer
 	- https://github.com/colbymchenry/codegraph
 - Ponytail
-	- Imagine a 'senior' level code reviewer/implementor
+	- Imagine a 'senior' level code reviewer/implementer
 	- This plugin stops your model from writing overly complex code and provides auditing tools to support code cleanup efforts
 	- Can be expensive at times, as it fires of many sub-agents
 	- https://github.com/dietrichgebert/ponytail
@@ -133,6 +142,9 @@ Plugins & MCP servers are another way to give models more power. I've played wit
 	- Heavily customizable and open-source
 	- Nice diff screen, app preview, and branching controls built in
 	- Direct terminal access if needed
+ - OV2
+    - They made a new orchestrater setup that allows providers of one model to spawn agents of another
+    - Easy context handoff
 - Seems like the mix between VScode and Codex
 ## CMUX
 - Tmux terminal but for agents
@@ -141,18 +153,13 @@ Plugins & MCP servers are another way to give models more power. I've played wit
 - Seems best designed for Claude Code or other cli-based tools
 - Built ontop of Ghostty
 
+# Reasonable AI Creators/Experts You could watch:
+- Theo (t3dotgg) - Might be knowledgeable sometimes, but is not my personal favorite anymore. He's really AI brained. T3code is fantastic though
+- Ben Davis - seems to use AI less or at least more carefully than Theo. Is a svelte nerd so bonus points
+- ThePrimeagen - Kinda the goat, will talk about any issue/topic. Has gone full into omarchy and grok though so :(.
+- Fireship - quick, informative context with ridiculous sponsor spots at the end. Good for news and updates
+- BigBoxSWE - a reasonable middle ground, seems to maybe actually have a software job perhaps
+- Kai Lenit - pure comedy skits about the industry
 
 # TLDR
-AI is now part of the Software Development toolkit, and its fairly important we understand how to use it as best as possible, but also in a way where we are still in control. I've played with a lot of models and tools, and have ended up with this current collection:
-
-- Gemini Plus (student 1 year promo)
-- Anthropic Pro Plan (1.5 years won for free @ Nexhacks)
-- OpenAI Plus (student 4 month promo)
-- Github Copilot (Student access plan)
-- Ollama with gemma 4 & qwen-3-coder (local)
-- Running primarily through t3 code, but I do also like Claude Code for simpler and quicker tasks
-	- Copilot is only usable in github.com, github desktop, and vscode
-- On MAC, I like to use cmux sometimes too
-
-I follow Theo.gg & Ben Davis, & ThePrimeagen for updates in software engineering and AI
-- Take anything from Theo and Ben with a grain of salt, both are very AI pilled
+AI is now part of the Software Development toolkit, and its fairly important we understand how to use it as best as possible, but also in a way where we are still in control.
