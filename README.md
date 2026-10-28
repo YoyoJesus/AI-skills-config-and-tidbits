@@ -17,3 +17,7 @@ Each folder has its own README.
 ## Start here
 
 - [notes/brain-dump.md](notes/brain-dump.md) - overview of providers, local models, plugins, and agent coding platforms
+
+## License
+
+[MIT](LICENSE). Third-party skills, plugins, and MCP servers listed in this repo are only linked, not included, and remain under their authors' own licenses.
