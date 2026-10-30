@@ -30,6 +30,7 @@ To use one, copy or symlink the folder into `~/.claude/skills/` (Claude Code) or
 | [typst-in-browser](typst-in-browser/SKILL.md) | Client-side Typst to PDF/SVG with safe escaping | ResumeSmith, CardSmith, ProjectSmith |
 | [oss-repo-setup](oss-repo-setup/SKILL.md) | Community files, templates, and attribution/commit CI for public repos | ResumeSmith, CardSmith, ProjectSmith, email-signature-maker |
 | [ctf-challenge](ctf-challenge/SKILL.md) | Authoring CTF challenges with a verified solve | kent-hack-it-challenges |
+| [video-production](video-production/SKILL.md) | Product and launch videos from real recordings with ffmpeg | AirChess launch video |
 
 ## Third-party
 
